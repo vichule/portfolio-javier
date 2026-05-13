@@ -5,6 +5,8 @@ import { Projects } from "@/components/sections/projects";
 import { Experience } from "@/components/sections/experience";
 import { Education } from "@/components/sections/education";
 import { BackgroundBlobs } from "@/components/layout/background-blobs";
+import { Footer } from "@/components/layout/footer";
+import { FadeIn } from "@/components/ui/fade-in";
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
         <Experience />
         <Education />
         <Projects />
+        <Footer />
 
       </main>
     </>
