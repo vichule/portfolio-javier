@@ -13,8 +13,6 @@ export function Section({
     <section
       id={id}
       className={`
-        min-h-screen
-        flex items-center
         py-32 md:py-64
         ${className}
       `}

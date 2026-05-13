@@ -33,6 +33,7 @@ export function ThemeToggle() {
         backdrop-blur-md
         transition-all duration-300
         hover:scale-105
+        cursor-pointer
       "
     >
       {theme === "dark" ? (
