@@ -15,7 +15,7 @@ function Blob({ className }: BlobProps) {
 
 export function BackgroundBlobs() {
   return (
-    <div className="absolute inset-0 -z-10 overflow-hidden blob-float">
+    <div className="absolute inset-0 -z-10 overflow-hidden">
 
       <Blob className="
       blob-float

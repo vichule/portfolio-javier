@@ -26,8 +26,8 @@
   --shadow-card: 0px 8px 30px rgba(0, 0, 0, 0.06);
 
   /* Background pattern */
-  --page-grid: rgba(17, 24, 39, 0.6);
-  --page-sparkle: rgba(17, 24, 39, 0.5);
+  --page-grid: rgba(17, 24, 39, 0.06);
+  --page-sparkle: rgba(17, 24, 39, 0.05);
   --page-noise: rgba(17, 24, 39, 0.04);
 
   /* Layout */
@@ -164,7 +164,7 @@ html.dark {
   }
 
   50% {
-    transform: translateY(-12px);
+    transform: translateY(-40px);
   }
 
   100% {
@@ -173,7 +173,7 @@ html.dark {
 }
 
 .blob-float {
-  animation: float 14s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
 }
 .blob-float-slow {
   animation: float 18s ease-in-out infinite;

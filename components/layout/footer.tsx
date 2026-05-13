@@ -18,11 +18,12 @@ function LinkedinIcon() {
 
 export function Footer() {
   return (
-    <footer className="border-t border-zinc-200/70 dark:border-zinc-800/80 py-14">
-      <div className="container-custom flex flex-col gap-10">
+    <footer className="relative z-10 border-t border-zinc-200/70 dark:border-zinc-800/80 py-14">
+      <div className="container-custom relative z-10 flex flex-col gap-10">
         <div className="max-w-3xl">
           <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-3">Javier Cabañas</p>
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950 dark:text-white">
+                    <h2 className="text-3xl md:text-4xl font-semibold tracking-tight ">
+
             Building scalable web products with modern frontend and backend technologies.
           </h2>
         </div>
@@ -33,7 +34,7 @@ export function Footer() {
               href="https://github.com/vichule"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 bg-white/80 px-4 py-3 text-sm text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-100 dark:border-zinc-800/70 dark:bg-zinc-950/90 dark:text-zinc-100 dark:hover:border-zinc-700 dark:hover:bg-zinc-900"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 bg-white/80 px-4 py-3 text-sm text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-100 dark:border-zinc-800/70 dark:bg-zinc-950/90 dark:text-zinc-100 dark:hover:border-zinc-700 dark:hover:bg-zinc-900 hover:-translate-y-0.5 transition-all duration-300"
             >
               <GithubIcon />
               GitHub
@@ -42,14 +43,14 @@ export function Footer() {
               href="https://www.linkedin.com/in/javinteger"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 bg-white/80 px-4 py-3 text-sm text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-100 dark:border-zinc-800/70 dark:bg-zinc-950/90 dark:text-zinc-100 dark:hover:border-zinc-700 dark:hover:bg-zinc-900"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 bg-white/80 px-4 py-3 text-sm text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-100 dark:border-zinc-800/70 dark:bg-zinc-950/90 dark:text-zinc-100 dark:hover:border-zinc-700 dark:hover:bg-zinc-900 hover:-translate-y-0.5 transition-all duration-300"
             >
               <LinkedinIcon />
               LinkedIn
             </a>
             <a
               href="mailto:hello@example.com"
-              className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 bg-white/80 px-4 py-3 text-sm text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-100 dark:border-zinc-800/70 dark:bg-zinc-950/90 dark:text-zinc-100 dark:hover:border-zinc-700 dark:hover:bg-zinc-900"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 bg-white/80 px-4 py-3 text-sm text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-100 dark:border-zinc-800/70 dark:bg-zinc-950/90 dark:text-zinc-100 dark:hover:border-zinc-700 dark:hover:bg-zinc-900 hover:-translate-y-0.5 transition-all duration-300"
             >
               <Mail className="h-4 w-4" />
               Email
