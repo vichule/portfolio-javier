@@ -4,6 +4,7 @@ const navItems = [
   "About",
   "Projects",
   "Experience",
+  "Education",
   "Contact",
 ];
 
@@ -21,7 +22,7 @@ export function Navbar() {
             backdrop-blur-xl
           "
         >
-          <a className="font-medium tracking-tight" href="#hero">
+          <a className="font-medium tracking-tight" href="#">
             Javier
           </a>
 
