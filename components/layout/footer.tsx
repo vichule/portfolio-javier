@@ -23,7 +23,7 @@ export function Footer() {
         <div className="max-w-3xl">
           <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-3">Javier Cabañas</p>
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950 dark:text-white">
-            Full Stack Developer building modern web experiences.
+            Building scalable web products with modern frontend and backend technologies.
           </h2>
         </div>
 

@@ -156,3 +156,30 @@ html.dark {
   background: rgba(255, 255, 255, 0.08);
   color: rgb(212 212 216);
 }
+
+/* para los blobs flotantes */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.blob-float {
+  animation: float 14s ease-in-out infinite;
+}
+.blob-float-slow {
+  animation: float 18s ease-in-out infinite;
+}
+
+.blob-float-delayed {
+  animation: float 16s ease-in-out infinite;
+  animation-delay: 4s;
+}
