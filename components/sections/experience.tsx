@@ -38,6 +38,7 @@ export function Experience() {
                                 "Node.js",
                                 "Express.js",
                                 "Redux",
+                                "Styled Components",
                             ]}
                         />
                     </FadeIn>
@@ -52,6 +53,7 @@ export function Experience() {
                                 "MongoDB",
                                 "Express",
                                 "React",
+                                "Styled Components",
                                 "Node.js",
                                 "TypeScript",
                                 "PHP",
