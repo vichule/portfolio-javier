@@ -1,6 +1,7 @@
 "use client";
 
 import { Section } from "../ui/section";
+import { ButtonLink } from "../ui/styled-buttons";
 import {
     Code2,
     Database,
@@ -44,12 +45,10 @@ export function Hero() {
                     </p>
 
                     <div className="flex gap-4 mb-12">
-                        <button className="bg-zinc-900 dark:bg-zinc-200 text-white dark:text-zinc-900 px-8 py-3 rounded-lg font-medium hover:bg-zinc-600 dark:hover:bg-zinc-300 transition-colors cursor-pointer">
-                            View projects
-                        </button>
-                        <button className="bg-zinc-200 dark:bg-zinc-800 text-zinc-900 dark:text-white px-8 py-3 rounded-lg font-medium hover:bg-zinc-300 dark:hover:bg-zinc-700 transition-colors cursor-pointer">
+                        <ButtonLink href="#projects">View projects</ButtonLink>
+                        <ButtonLink href="#contact" variant="secondary">
                             Contact me
-                        </button>
+                        </ButtonLink>
                     </div>
 
                     <div className="flex flex-wrap gap-3">
