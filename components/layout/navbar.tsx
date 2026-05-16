@@ -2,9 +2,9 @@ import { ThemeToggle } from "../theme/theme-toggle";
 
 const navItems = [
   "About",
-  "Projects",
   "Experience",
   "Education",
+  "Projects",
   "Contact",
 ];
 
