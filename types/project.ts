@@ -19,4 +19,5 @@ export interface Project {
   stack: TechBadge[];
   links: ProjectLink[];
   reverse?: boolean;
+  imagePosition?: "center" | "top" | "bottom" | "left" | "right";
 }
