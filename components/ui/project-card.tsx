@@ -11,6 +11,7 @@ export function ProjectCard({
   stack,
   links,
   reverse = false,
+  imagePosition = "center",
 }: ProjectCardProps) {
   return (
     <div className={`group grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${reverse ? 'lg:grid-flow-col-dense' : ''}`}>
@@ -22,15 +23,20 @@ export function ProjectCard({
           transition-all duration-500
           group-hover:shadow-xl
           dark:group-hover:shadow-2xl
+          aspect-[16/10]
         ">
           <img
             src={image}
             alt={imageAlt}
+            style={{ objectPosition: imagePosition }}
             className="
-              w-full h-auto object-cover
-              transition-transform duration-700
-              group-hover:scale-[1.02]
-            "
+              w-full
+              h-full
+              object-cover
+              transition-transform
+              duration-700
+              group-hover:scale-[1.10]
+              "
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
         </div>
@@ -38,7 +44,7 @@ export function ProjectCard({
 
       {/* Content  */}
       <div className={`space-y-6 ${reverse ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
-        <div className="flex items-start justify-between gap-4">
+        <div className="space-y-3">
           <h3 className="text-2xl md:text-3xl font-semibold tracking-tight">
             {title}
           </h3>
