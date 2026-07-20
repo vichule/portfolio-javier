@@ -1,15 +1,5 @@
 import { Section } from "../ui/section";
 import { ProjectCard } from "../ui/project-card";
-import {
-  Code2,
-  Database,
-  ExternalLink,
-  GitBranch,
-  Globe,
-  Smartphone,
-  Workflow,
-  Zap,
-} from "lucide-react";
 import { FadeIn } from "../ui/fade-in";
 import { projects } from "@/data/projects";
 

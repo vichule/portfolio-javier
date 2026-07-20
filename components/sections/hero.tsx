@@ -6,7 +6,6 @@ import {
     Code2,
     Database,
     ExternalLink,
-    Mail,
     Rocket,
     Smartphone,
     Workflow,

@@ -11,12 +11,12 @@ export function About() {
                     <p className="text-sm text-zinc-500 mb-4">
                         About me
                     </p>
-
+s
                     <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-relaxed mb-8">
                         Full stack development focused on modern products and scalable architecture.
                     </h2>
                     <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                        Over the last few years I've worked building and maintaining real-world web applications, handling everything from frontend interfaces to backend architecture, deployments and database management.
+                        Over the last few years I&apos;ve worked building and maintaining real-world web applications, handling everything from frontend interfaces to backend architecture, deployments and database management.
                     </p>
 
                     <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">

@@ -3,7 +3,6 @@ import { Project } from "@/types/project";
 import {
   Code2,
   Database,
-  ExternalLink,
   GitBranch,
   Globe,
   Smartphone,

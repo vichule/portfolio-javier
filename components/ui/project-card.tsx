@@ -1,5 +1,5 @@
-import React from "react";
 import { Project } from "@/types/project";
+import Image from "next/image";
 
 type ProjectCardProps = Project;
 
@@ -25,9 +25,11 @@ export function ProjectCard({
           dark:group-hover:shadow-2xl
           aspect-[16/10]
         ">
-          <img
+          <Image
             src={image}
             alt={imageAlt}
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
             style={{ objectPosition: imagePosition }}
             className="
               w-full
