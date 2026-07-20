@@ -92,7 +92,7 @@ export function Contact() {
                         <Mail className="h-4 w-4" />
                         Email
                     </SocialButton>
-                    <SocialButton href="/javierCV.pdf" target="_blank" rel="noreferrer">
+                    <SocialButton href="/Javier_Cabanas_CV_ES.pdf" target="_blank" rel="noreferrer">
                         <Download className="h-4 w-4" />
                         Resume
                     </SocialButton>
