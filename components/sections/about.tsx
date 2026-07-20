@@ -11,7 +11,6 @@ export function About() {
                     <p className="text-sm text-zinc-500 mb-4">
                         About me
                     </p>
-s
                     <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-relaxed mb-8">
                         Full stack development focused on modern products and scalable architecture.
                     </h2>
