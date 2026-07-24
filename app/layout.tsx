@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Javier Cabañas | Full Stack Developer",
-  description:  "Portfolio of Javier Cabañas, Full Stack Developer specialized in React, TypeScript, Node.js and Laravel."
+  description: "Portfolio of Javier Cabañas, Full Stack Developer specialized in React, TypeScript, Node.js and Laravel.",
+  icons: "/icon.png",
 };
 
 export default function RootLayout({
